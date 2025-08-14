@@ -1,0 +1,19 @@
+:root {
+  --primary-magenta: hsl(300, 43%, 22%);
+  --primary-pink: hsl(333, 80%, 67%);
+
+  --dark-magenta: hsl(303, 10%, 53%);
+  --light-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+  --body-font: 0.9rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
