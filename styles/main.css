@@ -9,6 +9,39 @@
   --body-font: 0.9rem;
 }
 
+body {
+  font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+}
+
+.star-icon {
+  display: inline;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-magenta);
+}
+
+.blurb {
+  color: var(--dark-magenta);
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 700px) {
+  .top {
+    display: block;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
